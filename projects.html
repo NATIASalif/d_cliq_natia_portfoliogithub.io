@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de projets de [Votre Nom], développeur web. Découvrez mes réalisations en HTML, CSS et JavaScript.">
+    <title>Projets | [Votre Nom] - Développeur Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="Accueil - [Votre Nom]">
+                    <span class="logo-text">NATIA Salif</span>
+                </a>
+                <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">À propos</a></li>
+                        <li class="nav-item"><a href="skills.html" class="nav-link">Compétences</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link active" aria-current="page">Projets</a></li>
+                        <li class="nav-item"><a href="hobbies.html" class="nav-link">Loisirs</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Section Hero Projets -->
+        <section class="page-hero" aria-labelledby="projects-title">
+            <div class="container">
+                <h1 id="projects-title" class="page-title">Mes projets</h1>
+                <p class="page-subtitle">Découvrez mes réalisations en développement web</p>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section class="projects-section" aria-labelledby="featured-projects">
+            <div class="container">
+                <h2 id="featured-projects" class="section-title">Projets en vedette</h2>
+                
+                <!-- Projet 1 -->
+                <article id="project1" class="project-detail">
+                    <div class="project-detail-grid">
+                        <div class="project-detail-image">
+                            <img src="C:\Users\HP\Desktop\Porfolio\Pret_hypothécaire.png" alt="C:\Users\HP\Desktop\Porfolio\Pret_hypothécaire.png">
+                        </div>
+                        <div class="project-detail-content">
+                            <h3 class="project-detail-title">Site vitrine de Calculateur de prêt hypothécaire</h3>
+                            <p class="project-detail-description">Un site vitrine responsive pour une institution bancaire en ligne , avec fonctionnalité de calculateur de prêt hypothécaire implémentée en JavaScript pur.</p>
+                            
+                            <div class="project-features">
+                                <h4>Fonctionnalités :</h4>
+                                <ul>
+                                    <li>Design responsive adapté à tous les appareils</li>
+                                    <li>Panier d'achat fonctionnel avec gestion des quantités</li>
+                                    <li>Filtrage des produits par catégorie</li>
+                                    <li>Formulaire de contact avec validation</li>
+                                    <li>Optimisation des performances et accessibilité</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-stack">
+                                <h4>Technologies utilisées :</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Flexbox</span>
+                                    <span class="tech-tag">Grid</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary" target="_blank" rel="noopener">Voir la démo</a>
+                                <a href="#" class="btn btn-secondary" target="_blank" rel="noopener">Code source</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 2 -->
+                <article id="project2" class="project-detail">
+                    <div class="project-detail-grid">
+                        <div class="project-detail-image">
+                            <img src="C:\Users\HP\Desktop\Porfolio\Systeme_Comptable_Automatise_Camera_Simule.png" alt="C:\Users\HP\Desktop\Porfolio\Systeme_Comptable_Automatise_Camera_Simule.png">
+                        </div>
+                        <div class="project-detail-content">
+                            <h3 class="project-detail-title">Application systeme comptable</h3>
+                            <p class="project-detail-description">Système comptable automatisé avec camera simulé et lecteur OCR.</p>
+                            
+                            <div class="project-features">
+                                <h4>Fonctionnalités :</h4>
+                                <ul>
+                                    <li>Gestion du Système comptable</li>
+                                    <li>Recherche par ville avec autocomplétion</li>
+                                    <li>Prévisions sur 5 jours avec graphiques</li>
+                                    <li>Interface adaptative selon les conditions météo</li>
+                                    <li>Stockage local des villes favorites</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-stack">
+                                <h4>Technologies utilisées :</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">API REST</span>
+                                    <span class="tech-tag">LocalStorage</span>
+                                    <span class="tech-tag">CSS Animations</span>
+                                    <span class="tech-tag">Geolocation API</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary" target="_blank" rel="noopener">Voir la démo</a>
+                                <a href="#" class="btn btn-secondary" target="_blank" rel="noopener">Code source</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 3 -->
+                <article id="project3" class="project-detail">
+                    <div class="project-detail-grid">
+                        <div class="project-detail-image">
+                            <img src="C:\Users\HP\Desktop\Porfolio\Portfolio.png" alt="Capture d'écran du portfolio personnel">
+                        </div>
+                        <div class="project-detail-content">
+                            <h3 class="project-detail-title">Portfolio Personnel</h3>
+                            <p class="project-detail-description">Ce portfolio même que vous consultez actuellement, développé avec une approche mobile-first et une attention particulière à l'accessibilité.</p>
+                            
+                            <div class="project-features">
+                                <h4>Fonctionnalités :</h4>
+                                <ul>
+                                    <li>Design responsive mobile-first</li>
+                                    <li>Navigation accessible (clavier, lecteurs d'écran)</li>
+                                    <li>Formulaire de contact avec validation JavaScript</li>
+                                    <li>Animations CSS légères et performantes</li>
+                                    <li>Optimisation SEO et métadonnées</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-stack">
+                                <h4>Technologies utilisées :</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Accessibilité</span>
+                                    <span class="tech-tag">GitHub Pages</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary" target="_blank" rel="noopener">Voir la démo</a>
+                                <a href="#" class="btn btn-secondary" target="_blank" rel="noopener">Code source</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Autres Projets -->
+        <section class="other-projects" aria-labelledby="other-projects-title">
+            <div class="container">
+                <h2 id="other-projects-title" class="section-title">Autres projets</h2>
+                <div class="projects-grid">
+                    <!-- Mini projet 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="C:\Users\HP\Desktop\Porfolio\Capture d’écran 2025-11-11 004559.png" alt="Capture d'écran du jeu Memory">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Jeu Memory</h3>
+                            <p class="project-description">Jeu de mémoire classique avec compteur de mouvements et minuteur.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                            <a href="#" class="project-link">Voir le projet</a>
+                        </div>
+                    </article>
+
+                    <!-- Mini projet 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/project5.jpg" alt="Capture d'écran du générateur de citations">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Générateur de Citations</h3>
+                            <p class="project-description">Application qui génère des citations aléatoires avec fonction de partage.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">API</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">Voir le projet</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">NATIA Salif</h3>
+                    <p>Développeur web débutant passionné par la création d'expériences numériques accessibles et performantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="hobbies.html">Loisirs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:natiasalif@yahoo.com">natiasalif@yahoo.com</a></li>
+                        <li><a href="tel:+33123456789">+226 65 79 00 80</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NATIA Salif. Tous droits réservés.</p>
+                <p>Développé en HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

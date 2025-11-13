@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez [Votre Nom], développeur web. Formulaire de contact, informations et réseaux sociaux.">
+    <title>Contact |NATIA Salif - Développeur Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="Accueil - [Votre Nom]">
+                    <span class="logo-text">NATIA Salif</span>
+                </a>
+                <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">À propos</a></li>
+                        <li class="nav-item"><a href="skills.html" class="nav-link">Compétences</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="hobbies.html" class="nav-link">Loisirs</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Section Hero Contact -->
+        <section class="page-hero" aria-labelledby="contact-title">
+            <div class="container">
+                <h1 id="contact-title" class="page-title">Contactez-moi</h1>
+                <p class="page-subtitle">Discutons de votre prochain projet web</p>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="contact-section" aria-labelledby="contact-form-title">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 id="contact-form-title" class="section-title">Travaillons ensemble</h2>
+                        <p class="contact-description">Je suis toujours ouvert à discuter de nouveaux projets, opportunités de collaboration ou simplement échanger sur le développement web.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3 class="contact-item-title">Email</h3>
+                                <a href="mailto:votre.email@example.com" class="contact-link">natiasalif@yahoo.com</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3 class="contact-item-title">Téléphone</h3>
+                                <a href="tel:+33123456789" class="contact-link">+226 65 79 00 80</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3 class="contact-item-title">Localisation</h3>
+                                <p>Ouagadougou, Burkina Faso</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3 class="contact-item-title">Disponibilité</h3>
+                                <p>Ouvert à de nouvelles opportunités</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3 class="social-title">Suivez-moi</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-link" aria-label="GitHub">
+                                    <span class="social-icon">GitHub</span>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <span class="social-icon">LinkedIn</span>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <span class="social-icon">Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nom complet *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Adresse email *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Sujet *</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+                            
+                            <div id="form-success" class="form-success" style="display: none;">
+                                <p>Merci ! Votre message a été envoyé avec succès. Je vous répondrai dans les plus brefs délais.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section FAQ -->
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="container">
+                <h2 id="faq-title" class="section-title">Questions fréquentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 class="faq-question">Quels types de projets acceptez-vous ?</h3>
+                        <p class="faq-answer">Je travaille sur une variété de projets web : sites vitrines, portfolios, landing pages, et petites applications web. Je suis particulièrement intéressé par les projets qui mettent l'accent sur l'accessibilité et l'expérience utilisateur.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">Quel est votre délai de réponse ?</h3>
+                        <p class="faq-answer">Je m'efforce de répondre à tous les messages dans un délai de 24 à 48 heures. Pour les demandes urgentes, veuillez l'indiquer dans l'objet de votre message.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">Proposez-vous des révisions de code ?</h3>
+                        <p class="faq-answer">Oui, je propose des services de révision de code pour les développeurs débutants. Je peux vous aider à améliorer la structure, l'accessibilité et les performances de votre code.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">Travaillez-vous en freelance ?</h3>
+                        <p class="faq-answer">Je suis ouvert aux opportunités de freelance pour des projets alignés avec mes compétences et mes valeurs. N'hésitez pas à me contacter pour discuter de votre projet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">NATIA Salif</h3>
+                    <p>Développeur web débutant passionné par la création d'expériences numériques accessibles et performantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="hobbies.html">Loisirs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:votre.email@example.com">natiasalif@yahoo.com</a></li>
+                        <li><a href="tel:+33123456789">+226 65 79 00 80</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NATIA Salif. Tous droits réservés.</p>
+                <p>Développé en HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/form-validation.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

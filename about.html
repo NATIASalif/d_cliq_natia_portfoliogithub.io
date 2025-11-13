@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="À propos de [Votre Nom], développeur web débutant passionné par le développement front-end et l'accessibilité.">
+    <title>À propos | NATIA Salif - Développeur Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="Accueil - [Votre Nom]">
+                    <span class="logo-text">NATIA Salif</span>
+                </a>
+                <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link active" aria-current="page">À propos</a></li>
+                        <li class="nav-item"><a href="skills.html" class="nav-link">Compétences</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="hobbies.html" class="nav-link">Loisirs</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Section À propos -->
+        <section class="page-hero" aria-labelledby="about-title">
+            <div class="container">
+                <h1 id="about-title" class="page-title">À propos de moi</h1>
+                <p class="page-subtitle">Découvrez mon parcours et ma passion pour le développement web</p>
+            </div>
+        </section>
+
+        <section class="about-content" aria-labelledby="about-story">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 id="about-story" class="section-title">Mon histoire</h2>
+                        <p>Je suis un développeur web débutant passionné par la création d'expériences numériques accessibles et performantes. Mon parcours dans le développement web a commencé il y a deux (02) mois, lorsque j'ai découvert la possibilité de transformer des idées en réalités interactives.</p>
+                        
+                        <p>Au fil de mon apprentissage, j'ai développé une expertise en HTML, CSS et JavaScript, avec un intérêt particulier pour l'accessibilité web et l'expérience utilisateur. Je crois fermement que le web devrait être accessible à tous, indépendamment des capacités ou des dispositifs utilisés.</p>
+                        
+                        <h3 class="subsection-title">Ma philosophie de développement</h3>
+                        <p>Je m'efforce de créer des sites web qui ne sont pas seulement esthétiquement plaisants, mais aussi fonctionnels, accessibles et performants. Chaque ligne de code que j'écris est pensée pour offrir la meilleure expérience possible à l'utilisateur final.</p>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <h4>Accessibilité</h4>
+                                <p>Je conçois des sites utilisables par tous, conformes aux normes WCAG.</p>
+                            </div>
+                            <div class="highlight-item">
+                                <h4>Performance</h4>
+                                <p>Optimisation pour des temps de chargement rapides et une expérience fluide.</p>
+                            </div>
+                            <div class="highlight-item">
+                                <h4>Code propre</h4>
+                                <p>Structure sémantique et maintenable, suivant les meilleures pratiques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="C:\Users\HP\Desktop\Porfolio\profile-image.png" alt="Photo de NATIA Salif" class="profile-image">
+                        <div class="about-details">
+                            <h3 class="details-title">Informations personnelles</h3>
+                            <ul class="details-list">
+                                <li><strong>Nom :</strong> NATIA Salif</li>
+                                <li><strong>Localisation :</strong> Ouagadougou, Burkina Faso</li>
+                                <li><strong>Email :</strong> natiasalif@yahoo.com</li>
+                                <li><strong>Téléphone :</strong> +226 65 79 00 80</li>
+                                <li><strong>Disponibilité :</strong> Ouvert à de nouvelles opportunités</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section CTA -->
+        <section class="cta-section" aria-labelledby="cta-title">
+            <div class="container">
+                <h2 id="cta-title" class="cta-title">Travaillons ensemble</h2>
+                <p class="cta-text">Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter de vos besoins.</p>
+                <a href="contact.html" class="btn btn-primary">Me contacter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">NATIA Salif</h3>
+                    <p>Développeur web débutant passionné par la création d'expériences numériques accessibles et performantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="hobbies.html">Loisirs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:natiasalif@yahoo.com">natiasalif@yahoo.com</a></li>
+                        <li><a href="tel:+33123456789">+226 65 79 00 80</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NATIA Salif. Tous droits réservés.</p>
+                <p>Développé en HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

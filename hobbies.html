@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les passions et loisirs de [Votre Nom] en dehors du développement web.">
+    <title>Loisirs | NATIA Salif - Développeur Web</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="Accueil - [Votre Nom]">
+                    <span class="logo-text">NATIA Salif</span>
+                </a>
+                <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <nav id="main-nav" class="nav" role="navigation" aria-label="Navigation principale">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">À propos</a></li>
+                        <li class="nav-item"><a href="skills.html" class="nav-link">Compétences</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="hobbies.html" class="nav-link active" aria-current="page">Loisirs</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Section Hero Loisirs -->
+        <section class="page-hero" aria-labelledby="hobbies-title">
+            <div class="container">
+                <h1 id="hobbies-title" class="page-title">Mes loisirs</h1>
+                <p class="page-subtitle">Découvrez mes passions en dehors du développement web</p>
+            </div>
+        </section>
+
+        <!-- Section Loisirs -->
+        <section class="hobbies-section" aria-labelledby="hobbies-list">
+            <div class="container">
+                <h2 id="hobbies-list" class="section-title">Ce que j'aime faire</h2>
+                
+                <!-- Loisir 1 -->
+                <article class="hobby-card">
+                    <div class="hobby-content">
+                        <div class="hobby-text">
+                            <h3 class="hobby-title">Photographie</h3>
+                            <p class="hobby-description">Je capture des moments et paysages qui m'inspirent. La photographie m'apprend à voir le monde différemment et à apprécier les détails souvent négligés.</p>
+                            <p>Je me spécialise particulièrement dans la photographie de paysages urbains et naturels, jouant avec la lumière et les compositions pour créer des images évocatrices.</p>
+                            <div class="hobby-highlights">
+                                <h4>Ce que j'aime particulièrement :</h4>
+                                <ul>
+                                    <li>Photographie de paysages lors de mes voyages</li>
+                                    <li>Expérimentation avec la photographie en basse lumière</li>
+                                    <li>Post-traitement pour améliorer l'impact visuel</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hobby-image">
+                            <img src="./Elephant.jpg" alt="Exemple de photographie de paysage urbain">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Loisir 2 -->
+                <article class="hobby-card">
+                    <div class="hobby-content hobby-content-reverse">
+                        <div class="hobby-text">
+                            <h3 class="hobby-title">Randonnée et Nature</h3>
+                            <p class="hobby-description">Explorer les sentiers de montagne et les forêts me permet de me ressourcer et de trouver l'inspiration loin des écrans.</p>
+                            <p>Ces escapades en nature m'offrent un équilibre essentiel avec mon travail de développement web et me rappellent l'importance de préserver notre environnement.</p>
+                            <div class="hobby-highlights">
+                                <h4>Mes destinations préférées :</h4>
+                                <ul>
+                                    <li>Les sentiers des Alpes françaises</li>
+                                    <li>Les forêts des Vosges</li>
+                                    <li>Les côtes bretonnes</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hobby-image">
+                            <img src="./randonne.jpg" alt="Randonneur admirant un paysage montagneux">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Loisir 3 -->
+                <article class="hobby-card">
+                    <div class="hobby-content">
+                        <div class="hobby-text">
+                            <h3 class="hobby-title">Lecture et Apprentissage</h3>
+                            <p class="hobby-description">Je consacre une partie de mon temps libre à la lecture, principalement de livres sur la technologie, la psychologie et le développement personnel.</p>
+                            <p>Cette habitude me permet non seulement d'élargir mes connaissances, mais aussi de développer une pensée critique et créative qui enrichit mon approche du développement web.</p>
+                            <div class="hobby-highlights">
+                                <h4>Mes genres préférés :</h4>
+                                <ul>
+                                    <li>Livres techniques sur le développement web</li>
+                                    <li>Biographies de personnalités inspirantes</li>
+                                    <li>Ouvrages sur la psychologie cognitive</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hobby-image">
+                            <img src="./man-9581593_1280.jpg" alt="Collection de livres sur une étagère">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Loisir 4 -->
+                <article class="hobby-card">
+                    <div class="hobby-content hobby-content-reverse">
+                        <div class="hobby-text">
+                            <h3 class="hobby-title">Jeux Vidéo Indépendants</h3>
+                            <p class="hobby-description">Je m'intéresse particulièrement aux jeux vidéo indépendants qui proposent des expériences narratives uniques et des mécaniques de jeu innovantes.</p>
+                            <p>Au-delà du divertissement, j'étudie les interfaces utilisateur et l'expérience joueur, ce qui influence positivement mon travail sur l'UX dans le développement web.</p>
+                            <div class="hobby-highlights">
+                                <h4>Ce que j'apprécie :</h4>
+                                <ul>
+                                    <li>Les récits immersifs et émotionnels</li>
+                                    <li>Les mécaniques de jeu originales</li>
+                                    <li>Les esthétiques artistiques distinctives</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hobby-image">
+                        <div>
+                <h5><i>&#128190;</i>vidéos</h5>
+                <video src="./videoplayback.mp4"autoplay muted loop>
+                </video>
+                </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Inspiration -->
+        <section class="inspiration-section" aria-labelledby="inspiration-title">
+            <div class="container">
+                <h2 id="inspiration-title" class="section-title">Comment mes loisirs inspirent mon travail</h2>
+                <div class="inspiration-grid">
+                    <div class="inspiration-item">
+                        <h3>Photographie → Design Visuel</h3>
+                        <p>Mon œil de photographe m'aide à créer des compositions équilibrées et esthétiques dans mes interfaces web.</p>
+                    </div>
+                    <div class="inspiration-item">
+                        <h3>Randonnée → Résolution de Problèmes</h3>
+                        <p>Planifier un sentier de randonnée développe les mêmes compétences que résoudre un problème technique complexe.</p>
+                    </div>
+                    <div class="inspiration-item">
+                        <h3>Lecture → Veille Technologique</h3>
+                        <p>Ma passion pour la lecture me maintient informé des dernières tendances et meilleures pratiques en développement.</p>
+                    </div>
+                    <div class="inspiration-item">
+                        <h3>Jeux Vidéo → UX/UI</h3>
+                        <p>Analyser l'UX des jeux m'aide à comprendre comment créer des interfaces intuitives et engageantes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">NATIA Salif</h3>
+                    <p>Développeur web débutant passionné par la création d'expériences numériques accessibles et performantes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="hobbies.html">Loisirs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:natiasalif@yahoo.com">natiasalif@yahoo.com</a></li>
+                        <li><a href="tel:+33123456789">+226 65 79 00 80</a></li>
+                    </ul>
+                </div>
+                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NATIA Salif. Tous droits réservés.</p>
+                <p>Développé en HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
